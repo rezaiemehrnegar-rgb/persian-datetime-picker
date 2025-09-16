@@ -76,6 +76,9 @@ Jalali? picked = await showPersianDatePicker(
   initialDate: Jalali.now(),
   firstDate: Jalali(1385, 8),
   lastDate: Jalali(1450, 9),
+  holidayConfig: PersianHolidayConfig(
+    weekendDays: {7}
+  ),
   initialEntryMode:
       PersianDatePickerEntryMode.calendarOnly,
   initialDatePickerMode: PersianDatePickerMode.year,
@@ -149,7 +152,7 @@ Jalali? pickedDate = await showModalBottomSheet<Jalali>(
                   ),
                   onPressed: () {
                     print(
-                        tempPickedDate ?? Jal
+                        tempPickedDate ?? Jalali.now());
                     Navigator.of(context).pop(
                         tempPickedDate ?? Jalali.now());
                   },
