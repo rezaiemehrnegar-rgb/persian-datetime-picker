@@ -2,7 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:shamsi_date/shamsi_date.dart';
-
 import '../material/date.dart';
 
 class SoraniMaterialLocalizations extends DefaultMaterialLocalizations {
