@@ -1,4 +1,3 @@
-//TODO:remove #117 this file
 // // Copyright 2014 The Flutter Authors. All rights reserved.
 // // Use of this source code is governed by a BSD-style license that can be
 // // found in the LICENSE file.
@@ -279,7 +278,7 @@
 //     : super(
 //         elevation: 6.0,
 //         shape: const RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(28.0))),
-//         // TODO(tahatesser): Update this to use token when gen_defaults
+
 //         // supports `CircleBorder` for fully rounded corners.
 //         dayShape: const MaterialStatePropertyAll<OutlinedBorder>(CircleBorder()),
 //         rangePickerElevation: 0.0,

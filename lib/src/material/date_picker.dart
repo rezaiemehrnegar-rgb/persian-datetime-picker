@@ -982,7 +982,6 @@ class _DatePickerHeader extends StatelessWidget {
                   if (entryModeButton != null)
                     Padding(
                       padding: theme.useMaterial3
-                          // TODO(TahaTesser): This is an eye-balled M3 entry mode button padding
                           // from https://m3.material.io/components/date-pickers/specs#c16c142b-4706-47f3-9400-3cde654b9aa8.
                           // Update this value to use tokens when available.
                           ? const EdgeInsetsDirectional.only(

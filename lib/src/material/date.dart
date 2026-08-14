@@ -529,7 +529,6 @@ String? jalaliStringToGregorianString(
     // Format DateTime as a string, e.g., "yyyy-mm-dd"
     return '${dateTime.year.toString().padLeft(4, '0')}/${dateTime.month.toString().padLeft(2, '0')}/${dateTime.day.toString().padLeft(2, '0')}';
   } catch (e) {
-    // TODO: Use a data structure similar to Rust's "Result" to directly
     // return errors to the caller instead.
     // ignore: avoid_print
     print("Error converting Jalali date: $e");
